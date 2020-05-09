@@ -1,0 +1,30 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #c1bdba;
+  font-size: 16px;
+}
+
+.recuadro {
+  margin: 20px auto;
+  width: 90%;
+  height: 95vh;
+  padding: 8px;
+  background-color: #25333c;
+  box-shadow: 0 0 10px rgba(3, 3, 3, 0.781);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (min-width: 576px) {
+  .recuadro {
+    width: 430px;
+  }
+}
