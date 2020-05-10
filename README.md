@@ -1,10 +1,13 @@
-#Biblioteca
+# Biblioteca
 
-##Gestión de biblioteca física.
+## Gestión de biblioteca física.
 
-##Lenguajes utilizados:
+## Lenguajes utilizados:
 
-###HTML
-###CSS
-###PHP
-###JAVASCRIPT
+### HTML
+
+### CSS
+
+### PHP
+
+### JAVASCRIPT
