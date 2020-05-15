@@ -9,13 +9,13 @@ class ControladorFormularios
    $tabla = "registros";
   }
 
-  $item = "email";
+  $item  = "email";
   $valor = $_POST["ingresoEmail"];
 
   $respuesta = ModeloFormularios::mdlSeleccionarRegistros($tabla, $item, $valor);
 
   if ($respuesta["email"] == $_POST["ingresoEmail"] && $respuesta["password"] == $_POST["ingresoPassword"]) {
-        echo 'Ingreso exitoso';
+   echo 'Ingreso exitoso';
   }
 
  }

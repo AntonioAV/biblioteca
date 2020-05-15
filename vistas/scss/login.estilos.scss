@@ -1,0 +1,114 @@
+@import 'estilos.generales';
+@import 'datos_sass/variables';
+// ====================================
+
+.recuadro {
+	header {
+		width: 100%;
+		padding: 1.5rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: #e9f2f9;
+		.icono {
+			text-align: center;
+			font-size: 2.5rem;
+			color: #c1bdba;
+		}
+	}
+	.formulario {
+		width: 100%;
+		height: 80%;
+		margin-top: 20px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		.inputs {
+			width: 100%;
+			height: 12rem;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			.grupo {
+				position: relative;
+				margin-bottom: 35px;
+				input {
+				
+					font-size: 1rem;
+					padding: 6px;
+					display: block;
+					width: 100%;
+					margin: auto;
+					background-color: transparent;
+					box-shadow: none;
+					color: $color-texto;
+					border: 1px solid rgba(255, 255, 255, 0.521);
+				}
+						::placeholder{
+							font-size: 1.2em;
+							padding: 5px;
+							color: $color-boton;
+							text-align: center;
+							
+						
+						}
+			}
+		}
+	
+		.btn_inferiores {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			height: 104px;
+			margin-bottom: 10px;
+			.cont_registro {
+				flex: 1;
+				margin-bottom: 10px;
+				font-size: 1.2rem;
+				background-color: #1ab188;
+				color: #e9f2f9;
+			}
+			.cont_sesion {
+				flex: 1;
+				margin-bottom: 10px;
+				font-size: 1.2rem;
+				background-color: #44535a;
+				color: #c1bdba;
+			}
+		}
+		.cont_inicio {
+			height: 3rem;
+			background-color: #1ab188;
+			font-size: 1.8rem;
+			font-weight: bold;
+			color: #e9f2f9;
+			border: none;
+			cursor: pointer;
+		}
+	
+		.recuadro_btn {
+			margin-top: 15px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			text-decoration: none;
+		}
+	}
+
+}
+// @media {
+// 	(min-width {
+// 		&: {
+// 			576px) {
+// 				.recuadro .formulario .inputs .grupo input {
+// 		font-size: 1.2rem;
+// 				.recuadro .formulario .cont_inicio {
+// 		height: 6rem;
+// 			}
+// 		}
+// 	}
+// }
+
+
+
+	
